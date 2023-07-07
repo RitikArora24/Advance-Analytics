@@ -1,0 +1,59 @@
+Statistical tests are an important part of data analysis. They help us understand the data and make inferences about the population.
+There are two main types of tests: parametric and non-parametric. 
+Parametric tests make certain assumptions about the data (Null hypothesis), while non-parametric tests do not make any assumptions about the data (Alternate hypothesis).
+The selection of parametric or non-parametric tests depends on factors, such as data distribution, measurement scale, presence of outliers, sample size, and the research design.
+
+-Parametric statistical tests assume that the data approximately follows a normal distribution.
+-Parametric statistical tests don’t assume anything about the distribution followed by the data.
+
+Types of parametric tests:
+
+1) Independent t-tests: The independent t-test is a parametric test, meaning that it requires that the data be normally distributed.
+It is used to determine whether the means of two groups are statistically different from each other. This test is often used when the data in each group are supplied by different people or when the groups are randomly assigned.
+
+2) Paired t-tests: The paired t-test is a statistical test that is used to compare the means of two groups, which are usually matched or paired together in some way.
+The two groups are then compared to see if there is a difference in the mean scores.
+The paired t-test is also used to compare the pre-treatment and post-treatment scores of a single group of people.
+
+3) ANOVA tests: ANOVA tests are used to compare the means of more than two groups.
+There are several different types of ANOVA tests, including one-way ANOVA, two-way ANOVA, and repeated measures ANOVA.
+The benefits of using an ANOVA test include that it is relatively easy to use and has high statistical power.
+
+4) MANOVA tests: MANOVA is used to determine whether or not there are significant differences between two or more group means.
+It is similar to ANOVA, but it can be used with more than one dependent variable.
+MANOVA is a powerful statistical tool that can be used to examine the relationships between multiple dependent variables and a single independent variable.
+
+5) F-test: The F-test is used to determine whether or not there is a significant difference between the variance of two or more groups.
+
+6) Z-test: The Z-test is used to determine the statistical significance of a difference between two groups. It is most commonly used when the groups are small.
+
+7) Pearson’s Correlation Coefficient test (Correlation test): Correlation tests are statistical tests that assess the strength of the relationship between two variables, which measures the linear relationship between two variables.
+Correlation tests can be used to study the cause-and-effect relationship between two variables or to predict future behavior based on past behavior. 
+
+
+Types of Non-Parametric tests:
+
+1) Wilcoxon rank-sum test (Mann-Whitney U test): The Wilcoxon rank-sum test is used to compare the difference between two groups of data. The test works by ranking the data from both groups, and then summing the ranks for each group.
+The difference between the two sums is then compared to a table of values to determine whether or not there is a significant difference between the two groups.
+The Wilcoxon rank-sum test is a powerful statistical tool that can be used to compare data sets of all sizes.
+
+2) Kruskal-Wallis H test: The Kruskal-Wallis H test is used to compare the means of two or more groups.
+It is similar to the ANOVA, but it is more robust and can be used when the assumptions of the ANOVA are not met. it is used with either continuous or categorical data. To run the Kruskal-Wallis test, the data must be in the form of ranks. 
+
+3) Chi-square test of independence: Chi-square test is used to determine whether two variables are independent and calculate a statistic called the chi-square statistic.
+This statistic is then compared to a critical value to determine whether the two variables are independent.
+If the chi-square statistic is greater than the critical value, then the two variables are considered to be dependent. 
+
+4) Spearman’s rank correlation test: The Spearman’s rank correlation test measures the strength and direction of association between two ranked variables.
+It basically gives the measure of monotonicity of the relation between two variables i.e. how well the relationship between two variables could be represented using a monotonic function.
+
+
+
+
+
+
+
+
+
+
+
