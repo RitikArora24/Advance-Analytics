@@ -1,0 +1,46 @@
+-:One-sample T-test:-
+
+given:
+x=(34,35,45,34,56,23,34)
+Test Value = 40
+
+
+Null hypothesis: H0:µ=40
+Alternative Hypothesis: H1:µ≠40
+
+
+#Applying T-test
+
+
+#One sample t-test
+> t.test(x,mu=40)
+
+
+> t.test(x,mu=40,alternative = c("two.sided"),conf.level=0.95)
+> t.test(x,mu=40,alternative = c("greater"),conf.level=0.95)
+
+
+
+
+
+#O/P of One Sample t-test
+
+   One Sample t-test
+data:  x
+t = -0.6892, df = 6, p-value = 0.5164
+alternative hypothesis: true mean is not equal to 40
+95 percent confidence interval:
+27.64904 46.92239
+sample estimates:
+mean of x 
+37.28571 
+
+#Observation
+1. One-sample t-test is performed to determine if the mean of a sample (denoted as "x") is significantly different from a hypothesized value of 40.
+2. The test statistic (t) is calculated as -0.6892. The degrees of freedom (df) for the t-distribution is 6. The p-value associated with the test is 0.5164.
+3. The alternative hypothesis is stated as "the true mean is not equal to 40." This means mean of the sample differs significantly from 40, either being greater or smaller.
+4. The 95 percent confidence interval is computed as (27.64904, 46.92239). This interval represents a range within which we are 95% confident that the true population mean lies.
+5. The sample estimate is the mean of the sample, which is calculated as 37.28571.
+
+Based on the given results, since the p-value (0.5164) is greater than the typical significance level of 0.05, we do not have sufficient evidence to reject the null hypothesis.
+Therefore, we cannot conclude that the true mean is significantly different from 40 based on the given sample.
